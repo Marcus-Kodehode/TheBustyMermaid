@@ -2,7 +2,7 @@ body {
     background-color: #F0E68C; /* Lys bakgrunnsfarge for hele siden */
     margin: 0; /* Fjerner standard margin */
     padding: 0; /* Fjerner standard padding */
-    /* font-family: 'Georgia', 'Times New Roman', Times, serif; Bruker en serif font for all tekst */
+    font-family: 'Georgia', 'Times New Roman', Times, serif; /* Bruker en serif font for all tekst */
 }
 
 header {
