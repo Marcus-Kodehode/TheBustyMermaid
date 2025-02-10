@@ -30,7 +30,6 @@ header img {
     top: 50%; /* Justerer vertikal plassering av innholdet */
     left: 50%; /* Sentrerer horisontalt */
     transform: translate(-50%, -50%); /* Finjusterer for å sentrere vertikalt */
-    text-align: center;
 }
 
 header h1 {
@@ -40,6 +39,7 @@ header h1 {
     font-weight: bold; /* Gir teksten en fet stil */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre lesbarhet */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
+    text-align: center;
 }
 
 .info {
@@ -53,6 +53,7 @@ header h1 {
 .info p {
     margin: 5px 0; /* Litt mellomrom mellom paragrafene */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre kontrast */
+    text-align: center;
 }
 
 a {
