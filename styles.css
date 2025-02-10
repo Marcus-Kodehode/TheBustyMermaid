@@ -5,58 +5,73 @@ body {
     font-family: 'Georgia', 'Times New Roman', Times, serif; /* Bruker en serif font for all tekst */
 }
 
+/* Header */
 header {
-    display: flex; /* Bruker flexbox for å plassere elementene horisontalt */
-    justify-content: center; /* Plasserer innholdet sentrert i headeren */
-    align-items: center; /* Sentrerer innholdet vertikalt */
-    position: relative; /* Sørger for at bildet og teksten er riktig plassert */
-    width: 100%; /* Full bredde på headeren */
-    height: 300px; /* Setter høyden på headeren */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
 }
 
 header img {
-    width: 100%; /* Sørger for at bildet dekker hele bredden */
-    height: 100%; /* Sørger for at høyden på bildet tilpasses */
-    object-fit: cover; /* Fyller headeren uten å forvrenge bildet */
-    display: block; /* Fjerner eventuelle mellomrom under bildet */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .header-content {
-    display: flex; /* Bruker flexbox for å plassere h1 og info horisontalt */
-    justify-content: center; /* Plasserer innholdet i midten horisontalt */
-    align-items: center; /* Sentrerer innholdet vertikalt */
-    position: absolute; /* Plasserer div-en relativt til headeren */
-    width: 80%; /* Gir bredden en fleksibel størrelse på 80% */
-    text-align: center; /* Sørger for at teksten i .header-content er sentrert */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
 }
 
 header h1 {
-    margin-right: 40px; /* Litt mellomrom mellom h1 og paragrafene */
-    color: #FFD700; /* Endrer tekstfargen til gull for god kontrast */
-    font-size: 3em; /* Juster størrelsen på teksten etter behov */
-    font-weight: bold; /* Gir teksten en fet stil */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre lesbarhet */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
+    margin-right: 20px;
+    color: #FFD700;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Info container for navigasjon og knapper */
 .info {
-    display: flex; /* Bruker flexbox for å plassere paragrafene horisontalt */
-    flex-direction: column; /* Plasserer paragrafene vertikalt */
-    color: #FFD700; /* Gullfarge på teksten */
-    font-size: 1.2em; /* Justerer fontstørrelsen på paragrafene */
-    margin-left: 20px; /* Gir litt plass mellom teksten og paragrafene */
-    text-align: center; /* Sentraliserer teksten */
+    display: flex;
+    flex-direction: column;
+    color: #FFD700;
+    font-size: 1.2em;
+    margin-left: 20px;
 }
 
-.info p {
-    margin: 5px 0; /* Litt mellomrom mellom paragrafene */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre kontrast */
+/* Knapper i headeren */
+.nav-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Gir knappene litt plass */
+    background-color: rgba(255, 215, 0, 0.7); /* Lys bakgrunn med litt gjennomsiktighet */
+    color: #333333; /* Hvit tekstfarge */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none; /* Fjerner underlinje fra lenkene */
+    border-radius: 25px; /* Runde kanter for en mykere stil */
+    margin: 10px 0; /* Litt mellomrom mellom knappene */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Legger til en overgangseffekt */
 }
 
-a {
-    color: #FFD700; /* Gullfarge på lenkene */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
+/* Hover-effekt på knappene */
+.nav-btn:hover {
+    background-color: rgba(255, 215, 0, 1); /* Mørkere bakgrunn ved hover */
+    transform: scale(1.1); /* Liten forstørrelse på knappene ved hover */
 }
+
 
 /* Flexbox for side-boksene */
 .side-boks-container {
@@ -91,7 +106,7 @@ a {
 
 .side-boks li {
     padding: 10px; /* Litt padding rundt hvert listeelement */
-    border-bottom: 1px solid #ddd; /* Tynn linje mellom elementene */
+    border-bottom: 1px solid black; /* Tynn linje mellom elementene */
     font-size: 1.1em; /* Justerer tekststørrelsen */
     color: #333333; /* Farge på teksten */
     text-align: center; /* Sentrerer innholdet i listen */
@@ -102,39 +117,40 @@ a {
     color: white; /* Endrer tekstfargen på hover */
     cursor: pointer; /* Endrer muspekeren på hover */
 }
-
 /* Hero Section */
 .hero {
-    /* background-image: url('images/TheBustyMermaidBar1.jpg'); Barens bakgrunnsbilde (utkommentert for nå) */
     background-size: cover; /* Sørger for at bakgrunnsbildet dekker hele hero-seksjonen */
-    background-position: center; /* Plasserer bakgrunnsbildet sentrert */
-    height: 400px; /* Setter høyden på hero-seksjonen til 400px */
-    display: flex; /* Bruker flexbox for å organisere innholdet */
-    justify-content: center; /* Sentrerer innholdet horisontalt */
-    align-items: center; /* Sentrerer innholdet vertikalt */
-    color: #FFD700; /* Gullfarge på teksten for god kontrast mot bakgrunnen */
-    text-align: center; /* Sentraliserer teksten */
+    background-position: center; /* Plasserer bakgrunnsbildet i midten av hero-seksjonen */
+    height: 400px; /* Setter høyden på hero-seksjonen */
+    display: flex; /* Bruker flexbox for å plassere innholdet horisontalt */
+    justify-content: center; /* Sentrerer innholdet horisontalt i hero-seksjonen */
+    align-items: center; /* Sentrerer innholdet vertikalt i hero-seksjonen */
+    color: #FFD700; /* Setter tekstfargen til gull for god kontrast mot bakgrunnen */
+    text-align: center; /* Sentraliserer teksten i hero-seksjonen */
+    padding:0 60px; /* Legger til 20px padding på venstre og høyre side av hero-seksjonen */
+    /* Padding på venstre og høyre side for å hindre at teksten kommer for nær kanten på skjermen */
 }
 
 .hero-text h1 {
-    font-size: 3em; /* Setter størrelsen på overskriften til 3em */
-    margin: 0; /* Fjerner marginen rundt overskriften */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Legger til en skygge for å gjøre teksten mer lesbar */
-    color: #8B4513; /* Setter fargen på overskriften til mørk brun */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en serif font for en klassisk stil */
+    font-size: 3em; /* Setter fontstørrelsen på overskriften til 3em */
+    margin: 0; /* Fjerner standard margin rundt overskriften */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Legger til skygge på teksten for bedre lesbarhet */
+    color: #8B4513; /* Sett fargen på overskriften til mørk brun */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font for overskriften */
 }
 
 .hero-text p {
-    font-size: 1.5em; /* Setter størrelsen på beskrivelsen til 1.5em */
-    margin-top: 10px; /* Litt mellomrom mellom overskriften og beskrivelsen */
+    font-size: 1.5em; /* Setter fontstørrelsen på beskrivelsen til 1.5em */
+    margin-top: 10px; /* Litt margin mellom overskriften og beskrivelsen */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Legger til skygge på beskrivelsen for bedre lesbarhet */
     color: #333333; /* Setter fargen på teksten til mørk grå for god kontrast */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker samme serif font som overskriften */
 }
 
 .hero-text a {
-    color: #333333; /* Setter fargen på lenken til mørk grå */
+    color: #333333; /* Setter fargen på lenkene til mørk grå */
 }
+
 
 /* Dreamweaver's Delight Section */
 .special-drink {
@@ -174,22 +190,23 @@ a {
 
 /* Footer */
 footer {
-    background-color: #4CAF50; /* Mørk bakgrunnsfarge for footeren */
-    color: #fff; /* Hvit tekstfarge for kontrast mot den mørke bakgrunnen */
-    padding: 20px 0; /* Padding på toppen og bunnen av footeren for å gi litt rom rundt innholdet */
-    width: 100%; /* Footeren tar opp hele bredden av skjermen */
+    background-color: #4CAF50; /* Mørk bakgrunnsfarge */
+    color: #fff; /* Hvit tekstfarge */
+    padding: 40px 0; /* Padding på toppen og bunnen av footeren */
+    width: 100%; /* Full bredde */
+    margin-top: 50px; /* Legger til 50px margin over footeren for å lage mer plass mellom footer og main */
 }
 
-/* Container for footerinnholdet */
 .footer-container {
     display: flex; /* Bruker flexbox for å organisere innholdet horisontalt */
-    justify-content: space-between; /* Plasserer innholdet på venstre og høyre side med plass imellom */
-    align-items: center; /* Sentrerer innholdet vertikalt i foten */
-    max-width: 1200px; /* Maksimal bredde på footeren (begrenset for å unngå at den blir for bred på store skjermer) */
+    justify-content: space-between; /* Plasserer innholdet på venstre og høyre side */
+    align-items: center; /* Sentrerer innholdet vertikalt */
+    max-width: 1200px; /* Maksimal bredde på footeren */
     width: 100%; /* Sørger for at footeren tar opp hele skjermens bredde opp til max-width */
-    margin: 0 auto; /* Sentrerer footeren horisontalt på skjermen */
-    padding: 0 20px; /* Litt padding på venstre og høyre side for å gi innholdet litt luft */
+    margin: 0 auto; /* Sentrerer footeren horisontalt */
+    padding: 0 20px; /* Gir litt padding på venstre og høyre side */
 }
+
 
 /* Venstre seksjon av footeren (kontaktinformasjon) */
 .footer-left {
