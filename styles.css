@@ -30,6 +30,7 @@ header img {
     top: 50%; /* Justerer vertikal plassering av innholdet */
     left: 50%; /* Sentrerer horisontalt */
     transform: translate(-50%, -50%); /* Finjusterer for å sentrere vertikalt */
+    text-align: center;
 }
 
 header h1 {
