@@ -2,12 +2,12 @@ body {
     background-color: #F0E68C; /* Lys bakgrunnsfarge for hele siden */
     margin: 0; /* Fjerner standard margin */
     padding: 0; /* Fjerner standard padding */
-    font-family: 'Georgia', 'Times New Roman', Times, serif; /* Bruker en serif font for all tekst */
+    /* font-family: 'Georgia', 'Times New Roman', Times, serif; Bruker en serif font for all tekst */
 }
 
 header {
     display: flex; /* Bruker flexbox for å plassere elementene horisontalt */
-    justify-content: center; /* Plasserer innholdet sentrert horisontalt */
+    justify-content: center; /* Plasserer innholdet sentrert i headeren */
     align-items: center; /* Sentrerer innholdet vertikalt */
     position: relative; /* Sørger for at bildet og teksten er riktig plassert */
     width: 100%; /* Full bredde på headeren */
@@ -23,18 +23,15 @@ header img {
 
 .header-content {
     display: flex; /* Bruker flexbox for å plassere h1 og info horisontalt */
-    justify-content: center; /* Plasserer innholdet horisontalt i midten */
+    justify-content: center; /* Plasserer innholdet i midten horisontalt */
     align-items: center; /* Sentrerer innholdet vertikalt */
-    text-align: center; /* Sørger for at teksten i .header-content er sentrert */
     position: absolute; /* Plasserer div-en relativt til headeren */
-    top: 50%; /* Justerer vertikal plassering av innholdet */
-    left: 50%; /* Sentrerer horisontalt */
-    transform: translate(-50%, -50%); /* Finjusterer for å sentrere både horisontalt og vertikalt */
-    width: 80%; /* Sørger for at innholdet får plass uten å strekke seg helt ut */
+    width: 80%; /* Gir bredden en fleksibel størrelse på 80% */
+    text-align: center; /* Sørger for at teksten i .header-content er sentrert */
 }
 
 header h1 {
-    margin-right: 20px; /* Litt mellomrom mellom h1 og paragrafene */
+    margin-right: 40px; /* Litt mellomrom mellom h1 og paragrafene */
     color: #FFD700; /* Endrer tekstfargen til gull for god kontrast */
     font-size: 3em; /* Juster størrelsen på teksten etter behov */
     font-weight: bold; /* Gir teksten en fet stil */
@@ -48,6 +45,7 @@ header h1 {
     color: #FFD700; /* Gullfarge på teksten */
     font-size: 1.2em; /* Justerer fontstørrelsen på paragrafene */
     margin-left: 20px; /* Gir litt plass mellom teksten og paragrafene */
+    text-align: center; /* Sentraliserer teksten */
 }
 
 .info p {
@@ -59,7 +57,6 @@ a {
     color: #FFD700; /* Gullfarge på lenkene */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
 }
-
 
 /* Flexbox for side-boksene */
 .side-boks-container {
