@@ -7,7 +7,7 @@ body {
 
 header {
     display: flex; /* Bruker flexbox for å plassere elementene horisontalt */
-    justify-content: center; /* Plasserer innholdet sentrert i headeren */
+    justify-content: center; /* Plasserer innholdet sentrert horisontalt */
     align-items: center; /* Sentrerer innholdet vertikalt */
     position: relative; /* Sørger for at bildet og teksten er riktig plassert */
     width: 100%; /* Full bredde på headeren */
@@ -23,13 +23,13 @@ header img {
 
 .header-content {
     display: flex; /* Bruker flexbox for å plassere h1 og info horisontalt */
-    justify-content: flex-start; /* Plasserer innholdet til venstre */
+    justify-content: flex-start; /* Plasserer innholdet til venstre i forhold til den tilgjengelige plassen */
     align-items: center; /* Sentrerer innholdet vertikalt */
-    width: 50%; /* Sørger for at innholdet tar 50% av headerens bredde */
-    position: absolute; /* Plasserer div-en relative til headeren */
+    position: absolute; /* Plasserer div-en relativt til headeren */
     top: 50%; /* Justerer vertikal plassering av innholdet */
-    left: 50%; /* Sentrerer horisontalt */
+    left: 50%; /* Sentrerer innholdet horisontalt */
     transform: translate(-50%, -50%); /* Finjusterer for å sentrere vertikalt */
+    width: 70%; /* Sett bredde til 70% for å kontrollere plasseringen av innholdet */
 }
 
 header h1 {
@@ -39,7 +39,6 @@ header h1 {
     font-weight: bold; /* Gir teksten en fet stil */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre lesbarhet */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
-    text-align: center;
 }
 
 .info {
@@ -53,13 +52,13 @@ header h1 {
 .info p {
     margin: 5px 0; /* Litt mellomrom mellom paragrafene */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Legger til skygge for bedre kontrast */
-    text-align: center;
 }
 
 a {
     color: #FFD700; /* Gullfarge på lenkene */
     font-family: Georgia, 'Times New Roman', Times, serif; /* Bruker en klassisk serif font */
 }
+
 
 /* Flexbox for side-boksene */
 .side-boks-container {
