@@ -246,6 +246,123 @@ footer {
     font-size: 0.9em; /* Liten tekststørrelse for copyright-teksten */
     margin-top: 5px; /* Litt mellomrom over copyright-teksten */
 }
+/* Styling for menyen */
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.menu-category {
+    width: 45%;
+    padding: 20px;
+    background-color: #F0E68C;
+    border: 2px solid #FFD700;
+}
+
+.menu-category h2 {
+    text-align: center;
+    color: #8B4513;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.menu-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-category li {
+    font-size: 1.2em;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: #333333;
+}
+
+.menu-category li:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.no-dots {
+    list-style-type: none; /* Fjerner punktene fra listen */
+    padding: 0; /* Fjerner eventuell innrykkning på listen */
+}
+.about-section  {
+    text-align: center;
+    color: #333333;
+    padding: 60px;
+    font-family: cursive;
+}
+.about-section h2   {
+    color: #8B4513;
+    font-family: cursive;
+}
+/* Containeren som holder bildet */
+.image-container {
+    display: flex; /* Bruker flexbox for å plassere bildet */
+    justify-content: center; /* Sentrerer bildet horisontalt */
+    align-items: center; /* Sentrerer bildet vertikalt */
+    height: auto; /* Fjern høyden på containeren for å unngå mye tomrom */
+    padding: 10px; /* Gir litt padding rundt containeren for å unngå at bildet er for nærme kanten */
+}
+
+/* Bildet */
+.bar-image {
+    width: 350px; /* Øker bredden på bildet til 350px */
+    height: 350px; /* Øker høyden på bildet til 350px */
+    border-radius: 50%; /* Gir bildet runde hjørner med 25% radius */
+    object-fit: cover; /* Sørger for at bildet fyller plassen uten å bli forvrengt */
+}
+/* Styling for Contact Us page */
+.contact-section {
+    padding: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #333333;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    color: #8B4513;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #333333;
+    font-family: cursive;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-top: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.contact-section strong {
+    color: #8B4513;
+}
+
+header h1 {
+    text-align: center;
+    color: #FFD700;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+
+
+
 
 
 
