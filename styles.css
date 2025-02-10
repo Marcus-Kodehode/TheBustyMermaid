@@ -91,6 +91,9 @@ header h1 {
     border: 2px solid #FFD700; /* Tynn ramme rundt boksene */
     margin: 0 10px; /* Litt mellomrom mellom boksene */
 }
+.side-boks a {
+    color: #333333;
+}
 
 .side-boks h2 {
     text-align: center; /* Sentrerer overskriften */
@@ -431,6 +434,537 @@ header h1 {
     text-align: center;
     font-family: cursive;
 }
+/* Styling for drink-siden */
+.drink-section {
+    padding: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+.drink-description h3   {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+.drink-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.drink-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 50%; /* Gir bildet runde kanter */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Skaper en subtil skygge rundt bildet */
+}
+
+.drink-description h2 {
+    font-size: 2em;
+    color: #8B4513;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.drink-description h3 {
+    color: #333333;
+    font-family: cursive;
+}
+
+.drink-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #333333;
+}
+
+.drink-description ul {
+    list-style-type: none; /* Fjerner punktene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+.drink-description li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-family: cursive;
+}
+
+.drink-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.drink-description em {
+    font-style: italic;
+    color: #8B4513;
+    font-family: cursive;
+}
+
+
+
 
 
 
