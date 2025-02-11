@@ -282,6 +282,7 @@ footer {
     border-bottom: 1px solid black;
     text-align: center;
     color: #333333;
+    font-family: cursive;
 }
 
 .menu-category li:hover {
@@ -962,6 +963,616 @@ header h1 {
     color: #8B4513;
     font-family: cursive;
 }
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+/* Shipwrecked Seafood Salad Section */
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+/* For Sea Serpent Sushi Rolls */
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+/* Pirate's Plunder Platter Section */
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+/* Coral Reef Quesadillas Section */
+.dish-image {
+    text-align: center;
+    margin-top: 40px; /* Øker avstanden mellom headeren og bildet */
+    margin-bottom: 40px; /* Gir ekstra plass under bildet */
+}
+
+.dish-img {
+    width: 300px; /* Juster størrelsen på bildet etter behov */
+    height: auto;
+    border-radius: 15px; /* Runde kanter på bildet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Legger til en subtil skygge rundt bildet */
+}
+
+.dish-description {
+    text-align: center; /* Sentraliserer alt tekstinnholdet i beskrivelsen */
+    padding: 20px; /* Gir ekstra plass rundt beskrivelsen */
+}
+
+.dish-description h2 {
+    font-size: 2em;
+    color: #8B4513; /* Mørk brun/gullfarge */
+    margin-bottom: 20px; /* Mer plass under overskriften */
+    font-family: cursive; /* Skrivefont for overskriften */
+}
+
+.dish-description h3 {
+    color: #333333; /* Mørk grå for undertitler */
+    font-family: cursive; /* Skrivefont for undertitler */
+    margin-top: 20px; /* Litt ekstra plass over undertitlene */
+}
+
+.dish-description p {
+    font-size: 1.2em; /* Størrelse på beskrivelsen */
+    line-height: 1.6; /* Øker linjeavstanden for bedre lesbarhet */
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #333333; /* Mørk grå tekstfarge */
+}
+
+.dish-description ul {
+    list-style-type: none; /* Fjerner tallene og setter tilbake punkttegnene */
+    padding: 0;
+    margin-bottom: 20px;
+    font-family: cursive; /* Skrivefont for ingrediensene */
+    text-align: center; /* Justerer teksten til venstre igjen i listen */
+    margin-left: 20px; /* Legger til litt innrykk for listen */
+}
+
+.dish-description li {
+    font-size: 1.2em; /* Størrelse på listeelementene */
+    margin: 10px 0;
+    font-family: cursive;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dish-description ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    font-family: cursive;
+}
+
+.dish-description em {
+    font-style: italic; /* Gjør teksten kursiv */
+    color: #8B4513; /* Mørk brun/gullfarge */
+    font-family: cursive; /* Skrivefont for em tekst */
+}
+
+
+
 
 
 
